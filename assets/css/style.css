@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    /* Color Scheme Variables */
+    --primary-color: #6EB2B7;
+    /* primary color */
+    --secondary-color: #c73611;
+    /*secondary color */
+    --accent-color: #e2e2e2;
+    /* accent color */
+    --additional-accent: #B5A642;
+    --text-base: #3a3a3a;
+    /*Text */
+    /* Main headings Font */
+    --heading-font: 'Bebas Neue', sans-serif;
+    /* Body text font */
+    --body-font:'Roboto', sans-serif;
+    }
+
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: var(--text-base);
+    /* Body font-family */
+    font-family: var(--body-font);
+    background-color:white;
+}
+
+/* Header */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.active{
+    color:var(--secondary-color) !important;
+    text-decoration: underline !important;
+    font-weight: 600 !important;
+}
